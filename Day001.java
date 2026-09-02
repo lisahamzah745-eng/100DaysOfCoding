@@ -1,3 +1,4 @@
+// 100 Days of Coding - Day 1
 public class Day1 {
     public static void main(String[] args) {
         System.out.println("Hello, World!");
