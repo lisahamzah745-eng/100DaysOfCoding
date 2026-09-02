@@ -1,8 +1,17 @@
-// 100 Days of Coding - Day 1
-public class Day1 {
+public class BangunDatar {
     public static void main(String[] args) {
-        System.out.println("Hello, World!");
-        System.out.println("Ini hari pertama 100 Days of Coding");
-        System.out.println("Nama saya: Lisa Hamzah");
+        // panjang persegi panjang
+        int panjang = 12;
+
+        // lebar persegi panjang  
+        int lebar = 7;
+
+        // hitung luas, simpan di variabel luas
+        int luas = panjang * lebar;
+
+        /* Tampilkan hasil ke layar */
+        System.out.println("Panjang : " + panjang);
+        System.out.println("Lebar   : " + lebar);
+        System.out.println("Luas Persegi Panjang : " + luas);
     }
 }
