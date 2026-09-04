@@ -1,20 +1,19 @@
 public class Day003 {
-    public static void main(String[] args) {
-        
+    public static void main(String[] args) {       
         // \n fungsinya untuk menambah baris baru
         System.out.println("Hello\nWorld");
-
+ 
         // \t fungsinya untuk membuat jarak mendatar atau spasi
         System.out.println("Saya\tLisa");
-
+ 
         // \\ fungsinya menampilkan satu karakter backslash \
-        System.out.println("\\Folder\\File.java");
-
+        System.out.println("\\Saya\\Kamu");
+ 
         // \" fungsinya untuk menampilkan tanda petik dua "
-        System.out.println("Dia bilang \"Halo\"");
+        System.out.println("Saya bilang \"Halo\"");
 
         // \' fungsinya menampilkan tanda petik tunggal '
-        System.out.println("Saya bilang \'Hai\'");
+        System.out.println("Kamu bilang \'Hai\'");
 
         // \r fungsinya untuk mengembalikan kursor ke awal baris yang sama dan menimpanya 
         System.out.println("123456\rABCDE");
