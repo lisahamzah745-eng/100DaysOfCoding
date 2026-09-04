@@ -24,6 +24,6 @@ public class Day003 {
 
         // \f fungsinya untuk ganti halaman atau pindah ke halaman baru
         System.out.println("Halaman1\fHalaman2");
-
+    }
 
 }
