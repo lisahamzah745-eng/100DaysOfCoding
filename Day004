@@ -16,7 +16,7 @@ public class Day004 {
           * SHORT 
           * Ukuran: 2 byte = 16 bit
           * Range: -32768 sampai 32767
-          * Fungsi: untuk menyimpan bilangan bulat sedang > 127 dan < 32767
+          * Fungsi: untuk menyimpan bilangan bulat sedang >127 dan <32767
           */
          short tahun = 2026;
          System.out.println("=======SHORT=======");
