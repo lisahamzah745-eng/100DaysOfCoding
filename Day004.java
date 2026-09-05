@@ -41,6 +41,6 @@ public class Day004 {
         long pendudukSulawesiBarat = 1466741L;
         System.out.println("=======LONG=======");
         System.out.println("Data Jumlah Penduduk Sulawesi Barat");
-        System.out.println("Jumlah penduduk 2024 :" + PendudukSulawesiBarat);
+        System.out.println("Jumlah penduduk 2024 :" + pendudukSulawesiBarat);
     }
 }
