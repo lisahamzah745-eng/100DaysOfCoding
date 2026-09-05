@@ -1,0 +1,26 @@
+public class Day004 {
+    public static void main(String[] args) {
+        /*
+         * BYTE 
+         * Ukuran: 1 byte = 8 bit
+         * Range: -128 sampai 127 
+         * Fungsi: Untuk menyimpan bilangan bulat kecil
+         */
+        byte umurLisa = 19;
+        byte suhu = 36;
+        System.out.println("=======BYTE=======");
+        System.out.println("Umur Lisa: " + umurLisa + " tahun");
+        System.out.println("Suhu: " + suhu + "°C");
+        System.out.println();
+         /*
+          * SHORT 
+          * Ukuran: 2 byte = 16 bit
+          * Range: -32768 sampai 32767
+          * Fungsi: untuk menyimpan bilangan bulat sedang > 127 dan < 32767
+          */
+         short tahun = 2026;
+         System.out.println("=======SHORT=======");
+         System.out.println("Mahasiswa Angkatan " + tahun");
+         System.out.println();
+    }
+}
