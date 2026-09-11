@@ -1,6 +1,8 @@
 public class Day010 {
     public static void main(String[] args) {
-        // Batas nilai maksimal dan minimal tipe data
+        // Batas nilai maksimal dan minimal tipe data penting agar program tidak mengalami overflow atau underflow
+        // MAX_VALUE berfungsi untuk menampilkan nilai maksimal dari suatu tipe data
+        // MIN_VALUE berfungsi untuk menampilkan nilai minimal dari suatu tipe data
         System.out.println("Batas Maksimal dan Minimal Tipe Data");
         // Byte
         System.out.println("\nBatas Nilai Byte");
