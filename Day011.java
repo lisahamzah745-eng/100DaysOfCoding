@@ -15,7 +15,5 @@ public class Day011 {
 
         System.out.println("Nggak terasa yah udah " + day + "day ajah");
         System.out.println("Jangan lupa untuk \"Tetap menyerah dan jangan pernah semangat\"");
-        
-        input.close();
     }
 }
