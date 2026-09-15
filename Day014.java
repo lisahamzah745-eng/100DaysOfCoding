@@ -5,7 +5,7 @@ public class Day014 {
        System.out.println("Diketahui");
        System.out.println("a = " +a);
        System.out.println("b = " +b);
-       System.out.println("Hasil penjumlan dan pengurangan");
+       System.out.println("Hasil penjumlahan dan pengurangan");
        System.out.println("a + b = " + (a+b));
        System.out.println("a - b = " + (a-b));
     }
