@@ -7,10 +7,8 @@ public class Day033 {
         int baterai = i.nextInt();
         if (baterai<= 20) {
             System.out.println("cas hp sekarang!!");
-        } else if(baterai<=80) {
-            System.out.println("Baterai hp masih aman :)");
         } else {
-            System.out.println("Baterai hp aman banget :)");
+            System.out.println("Baterai hp masih aman :)");
         }
     }
 }
