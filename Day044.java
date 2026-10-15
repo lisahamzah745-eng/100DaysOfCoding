@@ -7,7 +7,7 @@ public class Day044 {
         String nama = i.nextLine();
         System.out.print("Masukkan nilai: " );
         int nilai = i.nextInt();
-        System.out.println("Nama : "+nama);
+        System.out.println("\nNama : "+nama);
         System.out.println("Nilai : "+nilai);
         if (nilai<=100&&nilai>=85){
             System.out.println("Predikat nilai : A");
@@ -23,11 +23,13 @@ public class Day044 {
              System.out.println("nilai tidak valid");
         }
         if(nilai>100){
-            System.out.println("Status = -"); 
+            System.out.print(""); 
         }else if (nilai>=60){
             System.out.println("Status = Lulus"); 
-        }else{
+        }else if (nilai>=0){
             System.out.println("Status = Tidak Lulus");
+        }else {
+            System.out.print(""); 
         }
         i.close();   
     }
