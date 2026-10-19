@@ -18,7 +18,11 @@ public class Day048 {
                  System.out.println("Hasil dari "+a+"×"+b+ " adalah "+ (a*b));
                  break;
             case '/':
-                 System.out.println("Hasil dari "+a+"÷"+b+ " adalah "+ (a/b));
+                 if(b!=0){
+                      System.out.println("Hasil dari "+a+"÷"+b+ " adalah "+ (a/b));
+                 }else{
+                      System.out.println("Hasil tidak terdefinisi");
+                 }
                  break;
             case '%':
                  System.out.println("Hasil dari "+a+"%"+b+ " adalah "+ (a%b));
