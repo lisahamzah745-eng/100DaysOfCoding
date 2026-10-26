@@ -9,14 +9,14 @@ public class Day055 {
             if(n==7){
                 continue;
             }
-            System.out.println(j+" ");
+            System.out.println(j);
         }
         System.out.println("\nContoh break");
         for(int j=1;j<=n;j++){
             if(n==5){
                 break;
             }
-            System.out.println(j+" ");
+            System.out.println(j);
         }
         System.out.println("\nContoh return");
        if (n< 0) {
