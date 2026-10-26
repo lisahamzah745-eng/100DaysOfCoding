@@ -6,14 +6,14 @@ public class Day055 {
         int n = i.nextInt();
         System.out.println("Contoh continue");
         for(int j=1;j<=n;j++){
-            if(n==7){
+            if(j==7){
                 continue;
             }
             System.out.println(j);
         }
         System.out.println("\nContoh break");
         for(int j=1;j<=n;j++){
-            if(n==5){
+            if(j==5){
                 break;
             }
             System.out.println(j);
