@@ -13,5 +13,6 @@ public class Day057 {
         for(int j=2;j<=n;j+=2){
             System.out.println(j);
         }
+        i.close();
     }
 }
