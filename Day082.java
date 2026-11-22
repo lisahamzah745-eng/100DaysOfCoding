@@ -18,5 +18,6 @@ public class Day082 {
         for(int j=0;j<hasil.length;j++){
             System.out.print(hasil[j]);
         }
+        i.close();
     }
 }
